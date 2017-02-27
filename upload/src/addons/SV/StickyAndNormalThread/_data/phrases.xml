@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="seperator_normal_threads" version_id="100000" version_string="1.0.0"><![CDATA[&nbsp;&nbsp; &raquo; Normal Threads]]></phrase>
+  <phrase title="seperator_sticky_threads" version_id="100000" version_string="1.0.0"><![CDATA[&nbsp;&nbsp; &raquo; Sticky Threads]]></phrase>
+</phrases>

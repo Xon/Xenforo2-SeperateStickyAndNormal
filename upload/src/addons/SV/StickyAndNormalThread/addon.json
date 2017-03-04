@@ -1,5 +1,9 @@
 {
     "title": "Separate Sticky and Normal Threads",
     "version_string": "1.0.0",
-    "version_id": 100000
+    "version_id": 100000,
+    "dev" : "Xon",
+    "require" : {
+        "php": ["5.4.0", "PHP 5.4.0+"]
+    }
 }

@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <template_modifications>
   <modification type="public" template="forum_view" modification_key="SeparateStickyAndNormal_thread_list_stickies" description="Stickie Threads" execution_order="10" enabled="1" action="str_replace">
-    <find><![CDATA[<xf:foreach loop="$stickyThreads" value="$thread">]]></find>
+    <find><![CDATA[<div class="structItemContainer-group structItemContainer-group--sticky">]]></find>
     <replace><![CDATA[<xf:if is="{$stickyThreads} AND {$threads}">
-<li class="sectionHeaders">{{ phrase('seperator_sticky_threads') }}</li>
+<div class="structItemContainer-group structItemContainer-group--sticky-block">
+	<div class="structItem structItem--thread">
+		<div class="structItem-cell structItem-cell--icon"></div>
+		<div class="structItem-cell structItem-cell--main">{{ phrase('seperator_sticky_threads') }}</div>	
+		<div class="structItem-cell structItem-cell--meta"></div>
+		<div class="structItem-cell structItem-cell--latest"></div>
+    </div>
+</div>
 </xf:if>
 $0]]></replace>
   </modification>
   <modification type="public" template="forum_view" modification_key="SeparateStickyAndNormal_thread_list_normal" description="Normal Threads" execution_order="10" enabled="1" action="str_replace">
-    <find><![CDATA[<xf:foreach loop="$threads" value="$thread">]]></find>
+    <find><![CDATA[<div class="structItemContainer-group">]]></find>
     <replace><![CDATA[<xf:if is="{$stickyThreads} AND {$threads}">
-<li class="sectionHeaders">{{ phrase('seperator_normal_threads') }}</li>
+<div class="structItemContainer-group structItemContainer-group--normal-block">
+	<div class="structItem structItem--thread">
+		<div class="structItem-cell structItem-cell--icon"></div>
+		<div class="structItem-cell structItem-cell--main">{{ phrase('seperator_normal_threads') }}</div>	
+		<div class="structItem-cell structItem-cell--meta"></div>
+		<div class="structItem-cell structItem-cell--latest"></div>
+    </div>
+</div>
 </xf:if>
 $0]]></replace>
   </modification>

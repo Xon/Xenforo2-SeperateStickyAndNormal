@@ -1,5 +1,8 @@
 {
     "public/SeparateStickyAndNormal_thread_list_normal.json": {
         "hash": "74c213b8d079e3ae03c70078f63a7cf7"
+    },
+    "public/SeparateStickyAndNormal_thread_list_stickies.json": {
+        "hash": "aac73ed5e0a010e8e1e59915de2e900b"
     }
 }

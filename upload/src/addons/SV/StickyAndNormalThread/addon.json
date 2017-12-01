@@ -9,8 +9,6 @@
     "faq_url": "",
     "support_url": "",
     "extra_urls": [],
-    "require" : {
-        "php": ["5.6.0", "PHP 5.6.0+"]
-    },
+    "require" : {},
     "icon": ""
 }

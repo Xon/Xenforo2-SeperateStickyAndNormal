@@ -1,7 +1,7 @@
 {
     "template": "forum_view",
     "description": "Stickie Threads",
-    "execution_order": 10,
+    "execution_order": 5886,
     "enabled": true,
     "action": "str_replace",
     "find": "<div class=\"structItemContainer-group structItemContainer-group--sticky\">",

@@ -3,12 +3,25 @@
     "title": "Separate Sticky and Normal Threads",
     "description": "",
     "version_string": "2.1.0",
-    "version_id": 2010000,
-    "dev" : "Xon",
+    "version_id": 1713630639,
+    "dev": "Xon",
     "dev_url": "https://atelieraphelion.com/",
     "faq_url": "",
     "support_url": "https://xenforo.com/community/resources/separate-sticky-and-normal-threads-xf-2-x-by-xon.5886/",
     "extra_urls": [],
-    "require" : {},
+    "require": {
+        "SV/StandardLib": [
+            2001190000,
+            "Standard Library by Xon v1.19.0+"
+        ],
+        "XF": [
+            "2.2.0",
+            "XenForo 2.2.0+"
+        ],
+        "php": [
+            "7.2.0",
+            "PHP 7.2.0+"
+        ]
+    },
     "icon": ""
 }

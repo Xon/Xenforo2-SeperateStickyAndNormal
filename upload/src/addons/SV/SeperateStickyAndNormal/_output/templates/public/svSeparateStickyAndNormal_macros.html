@@ -36,3 +36,7 @@
 		</div>
 	</xf:if>
 </xf:macro>
+
+<xf:macro name="sticky_group_css" global="1">{{ property('svCollapsibleStickies')
+? (is_toggle_set($forum.node_id, false, 'sticky_node') ? ' is-hidden' : '')
+: '' }}</xf:macro>

@@ -1,0 +1,9 @@
+{
+    "template": "forum_view",
+    "description": "Sticky Threads",
+    "execution_order": 5886,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<div class=\"structItemContainer-group structItemContainer-group--sticky\">",
+    "replace": "<xf:macro name=\"svSeparateStickyAndNormal_macros::sticky\" />\n$0"
+}

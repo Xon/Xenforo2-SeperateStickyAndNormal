@@ -1,0 +1,13 @@
+{
+    "group_name": "nodeList",
+    "title": "Collapsible stickies threads block",
+    "description": "",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "boolean",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": 0,
+    "display_order": 895
+}

@@ -1,0 +1,9 @@
+{
+    "template": "forum_view",
+    "description": "Normal Threads",
+    "execution_order": 5886,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<div class=\"structItemContainer-group js-threadList\">",
+    "replace": "<xf:macro name=\"svSeparateStickyAndNormal_macros::normal\" />\n$0"
+}

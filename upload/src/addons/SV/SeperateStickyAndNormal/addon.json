@@ -3,7 +3,7 @@
     "title": "Separate Sticky and Normal Threads",
     "description": "",
     "version_string": "2.1.0",
-    "version_id": 1713630639,
+    "version_id": 1713631206,
     "dev": "Xon",
     "dev_url": "https://atelieraphelion.com/",
     "faq_url": "",
@@ -17,10 +17,6 @@
         "XF": [
             "2.2.0",
             "XenForo 2.2.0+"
-        ],
-        "php": [
-            "7.2.0",
-            "PHP 7.2.0+"
         ]
     },
     "icon": ""

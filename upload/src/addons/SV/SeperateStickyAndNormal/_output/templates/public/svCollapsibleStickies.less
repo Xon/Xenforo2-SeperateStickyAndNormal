@@ -2,14 +2,14 @@
 {
 	& .collapseTrigger:before
 	{
-		content: "\f0d7";
+		.m-faContent({{ $xf.versionId > 2030000 ? '@fa-var-solid-caret-down' : '@fa-var-caret-down' }});
 		width: 1.28571429em;
 		display: inline-block;
 		text-align: center;
 	}
 	& .collapseTrigger.is-hidden:before
 	{
-		content: "\f0da";
+		.m-faContent({{ $xf.versionId > 2030000 ? '@fa-var-solid-caret-right' : '@fa-var-caret-right' }});
 	}
 }
 

@@ -3,8 +3,10 @@
 		<xf:css src="structured_list.less" />
 		<div class="structItemContainer-group structItemContainer-group--normal-block">
 			<div class="structItem structItem--thread">
+				<xf:if is="property('svStickyNormalLabelIncludeIconColumn')">
 				<div class="structItem-cell structItem-cell--icon"></div>
-				<div class="structItem-cell structItem-cell--main">{{ phrase('seperator_normal_threads') }}</div>
+				</xf:if>
+				<div class="structItem-cell structItem-cell--main">{{ phrase('seperator_normal_threads') }}</div>				
 			</div>
 		</div>
 	</xf:if>
@@ -30,7 +32,9 @@
 		</xf:if>
 		<div class="structItemContainer-group structItemContainer-group--sticky-block">
 			<div class="structItem structItem--thread">
+				<xf:if is="property('svStickyNormalLabelIncludeIconColumn')">
 				<div class="structItem-cell structItem-cell--icon"></div>
+				</xf:if>
 				<div class="structItem-cell structItem-cell--main {$class}" {$rawAttr|raw}>{{ phrase('seperator_sticky_threads') }}</div>
 			</div>
 		</div>

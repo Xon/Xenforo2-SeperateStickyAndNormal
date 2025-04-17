@@ -1,6 +1,6 @@
 {
     "group_name": "nodeList",
-    "title": "Collapsible stickies threads block",
+    "title": "Sticky/Normal threads include icon column",
     "description": "",
     "property_type": "value",
     "css_components": [],
@@ -9,6 +9,6 @@
     "has_variations": false,
     "depends_on": "",
     "value_group": "seperateNormalAndStickies",
-    "property_value": 0,
-    "display_order": 800
+    "property_value": 1,
+    "display_order": 810
 }
